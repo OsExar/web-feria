@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    height: 70px;
+    width: 100%;
+    align-content: space-between;
+    gap: 50px;
+    background-color: white;
+
+}
+
+.brand-name{
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    align-items: center;
+    gap: 5px;
+}
+
+p{
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.sizes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+li{
+    width: 20%;
+    list-style: none;
+    margin-left: 20px;
+}
+
+a{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    border-bottom: 2px solid;
+    border-color: black;
+}
+
+.input-search{
+    display: flex;
+    justify-content: end;
+    padding-left: 10px;
+    height: 100%;
+}
+
+input{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    padding: 5px;
+    width: 50%;
+}
+
+input:focus{
+    height: 40px;
+    width: 60%;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    background-color: whitesmoke;
+    border-color: rgb(253, 152, 70);
+}
+
+main{
+    width: 100%;
+    height: 1790px;
+}
+
+.foto{
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWUeCVEte9LKhIx7YzRxPRYybxbMiW5ro2CUxoy9GPwKt_WmJHgkN4-t6iIKSLlUa3akiFYymYN5YYDr0AVuTPc-dl8ImYPpBHJKz6TJboV5zWDETLepxFBEixOdaK_h_ozQv4z2C-OIgbIpAe1XfGq3iSquvyq1riE7E4kbpfphYit44fmGPq-wHNxXE/s1600/moda%20invierno%202024%20Tucci%20oto%C3%B1o%20invierno%202024%20ropa%20de%20mujer.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    background-color: red;
+}
+
