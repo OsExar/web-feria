@@ -225,6 +225,7 @@ h1,h2,h3,h4,h5,h6{
 
 .gallery__image{
   transition: all 300ms ease-in-out;
+    width: 70%
 }
 
 .gallery__item:hover .gallery__image{
